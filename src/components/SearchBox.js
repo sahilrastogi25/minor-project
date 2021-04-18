@@ -16,7 +16,7 @@ function SearchBox(props) {
       />
       <button
         type="submit"
-        className="d-flex mt-4 justify-content-center align-items-center btn btn-large btn-primary"
+        className="d-flex mt-4 justify-content-center align-items-center btn btn-lg btn-primary"
       >
         Submit
       </button>

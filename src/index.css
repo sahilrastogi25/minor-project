@@ -7,6 +7,9 @@ body {
 }
 h1 {
   font-size: 3rem;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-bottom: 3px solid #ccc;
 }
 .search {
   margin-top: 15vh;
@@ -17,4 +20,26 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-right: 12vw;
+}
+.home {
+  display: flex;
+  justify-content: center;
+}
+.login {
+  margin-left: 20vw;
+  margin-top: 35px;
+}
+.content {
+  max-width: 60vw;
+  margin-left: 20vw;
+  margin-top: 10vh;
+  line-height: 2.2rem;
+  font-size: 18px;
+}
+.image img {
+  width: 80px;
+  height: 80px;
+  transform: rotate(-30deg);
+  margin-bottom: 10px;
 }

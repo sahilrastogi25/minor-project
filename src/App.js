@@ -1,13 +1,14 @@
-import Heading from "./Heading";
-import SearchBox from "./SearchBox";
-import { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Main from "./components/Main";
 function App() {
-  const [searchVal, setSearchVal] = useState("");
   return (
-    <div className="container-fluid">
-      <Heading />
-      <SearchBox searchVal={searchVal} setSearchVal={setSearchVal} />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/main" component={Main} />
+      </Switch>
+    </Router>
   );
 }
 
